@@ -1,0 +1,11 @@
+.popup {
+    text-align: center;
+    /* font-size: 100%; */
+    font-weight: bold;
+    font-family: Verdana, Arial, Helvetica, sans-serif;
+    color: #000000;
+   };
+
+.logoicon {
+  align-self: center
+};
