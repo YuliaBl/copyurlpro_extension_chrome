@@ -2,10 +2,6 @@
   "name": "Copy Url Pro",
   "version": "1.0",
   "description": "Copy Url",
-  "background": {
-    "scripts": ["background.js"],
-    "persistent": false
-  },
   "browser_action": {
     "default_icon": {
       "16": "copyurl-16.png",
@@ -14,10 +10,10 @@
     },
     "default_popup": "popup.html"
   },
-  "permissions": [
-    "tabs",
-    "activeTab",
-    "clipboardWrite"
-  ],
+  "background": {
+    "scripts": ["scripts.js"],
+    "persistent": false
+  },
+  "permissions": ["tabs", "activeTab", "clipboardWrite"],
   "manifest_version": 2
 }
