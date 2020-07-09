@@ -1,5 +1,16 @@
+* {
+  outline: 0;
+  padding: 0;
+  margin: 0;
+  border: 0;
+}
+.popup {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-content: center;
+}
 .logoicon {
   display: flex;
-  align-self: center;
   max-width: 48px;
 };

@@ -1,7 +1,7 @@
 {
-  "name": "Copy Url Pro",
+  "name": "CopyUrl Pro",
   "version": "1.0",
-  "description": "Copy Url",
+  "description": "This extension will help to copy the url of the current page in one click",
   "browser_action": {
     "default_icon": {
       "16": "copyurl-16.png",
@@ -15,5 +15,7 @@
     "persistent": false
   },
   "permissions": ["tabs", "activeTab", "clipboardWrite"],
+  "update_url": "https://clients2.google.com/service/update2/crx",
+  "homepage_url": "http://polosatova.com/",
   "manifest_version": 2
 }
